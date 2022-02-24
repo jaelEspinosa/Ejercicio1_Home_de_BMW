@@ -1,0 +1,93 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  display: inline;
+  padding: 15px;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bolder;
+}
+ul {
+  border-bottom: 1px solid white;
+  padding-bottom: 25px;
+}
+.lupa {
+  width: 2vw;
+  padding-right: 25px;
+}
+.portada {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100vw;
+  height: 50vh;
+  background-image: url(assets/img/portada2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contenedor-menu {
+  padding-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.contenedor-boton {
+  display: flex;
+  align-self: end;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 95vw;
+  color: white;
+  padding-bottom: 60px;
+  font-weight: bolder;
+}
+.descubralo {
+  margin: 10px;
+  border: none;
+  border-radius: 2px;
+  width: 200px;
+  height: 40px;
+  background-color: #20559b;
+  color: white;
+  font-weight: bolder;
+}
+.logo {
+  border-radius: 50%;
+  width: 3vw;
+  margin-right: 25px;
+}
+.ficha {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+.fichas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-content: center;
+  justify-content: space-around;
+}
+.menu-fichas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 45px;
+}
+.menu-fichas ul li {
+  padding: 45px;
+  font-size: 35px;
+  text-decoration: overline;
+}
